@@ -1,0 +1,237 @@
+﻿/*    resetCSS     >>      */
+body,html,div,span,ul,li,p,a,h1,h2,h3,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*    resetCSS     <<      */
+/*   clear_float      >>      */
+#content:after,
+#navigation:after,
+#leftSideBar:after,
+#content .article img:after
+{
+    content: " ";
+    display: block;
+    clear: both;
+}
+/*   clear_float      <<      */
+body {
+    font-size: 10px;
+    height: 790px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #dfd4b5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dfd4b5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#dfd4b5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#dfd4b5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#dfd4b5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#dfd4b5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfd4b5',GradientType=0 ); /* IE6-9 */
+
+}
+#wrapper {
+    margin: 0 auto;
+    width: 735px;
+    height: 742px;
+    background-color: #9a8a65;
+    border-radius: 7px;
+    margin-top: 30px;
+    background-image: url("../Images/bacground.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/*    header       >>      */
+    #wrapper #header {
+        padding-left: 10px;
+        margin-bottom: 43px;
+    }
+#wrapper #header #logo {
+    width: 215px;
+    height: 100px;
+    background-color: #b6ff00;
+    background: #fdfdfc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fdfdfc 40%, #c8c8c8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#fdfdfc), color-stop(100%,#c8c8c8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fdfdfc 40%,#c8c8c8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fdfdfc 40%,#c8c8c8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fdfdfc 40%,#c8c8c8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fdfdfc 40%,#c8c8c8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfc', endColorstr='#c8c8c8',GradientType=0 ); /* IE6-9 */
+    border-radius: 0 0 10px 10px;
+}
+/*    header       <<      */
+
+/*    navigation       >>      */
+#navigation {
+    width: 222px;
+
+    float: left;
+}
+#navigation ul li {
+    list-style: none;
+    height: 32px;
+    background-color: #2a2a2a;
+    border-bottom: 2px solid #797979;
+    line-height: 46px;
+}
+    #navigation ul li:last-child {
+    border: none;
+    }
+    #navigation ul li a {
+        text-decoration: none;
+        color: #f4f4f4;
+        padding-left: 8px;
+        border-left: 2px solid #797979;
+        margin-left: 26px;
+        font-size: 1.6em;
+    }
+        #navigation ul li a:hover {
+            color: #c1a369;
+            background-image: url("../Images")
+        }
+/*    navigation       <<      */
+
+/*    content       <<      */
+#content {
+    background-color: #fff;
+    width: 495px;
+    height: 430px;
+    float: right;
+    margin-right: 9px;
+    margin-top: 121px;
+}
+    #content .article img {
+        float: left;
+    }
+    #content .article > h1 {
+        color: #c3941a;
+        padding: 30px 0 0 27px;
+    }
+    #content .article a {
+        color: #6a5a2f;
+        display: block;
+        text-align: right;
+        padding-right: 10px;
+    }
+    #content .article h2 {
+        color: #d0b771;
+        padding: 10px 0 0 27px;
+    }
+    #content .article a > img {
+        padding-left: 27px;
+        padding-top: 8px;
+    }
+    #content .article > a {
+        font-weight: bold;
+        padding-right: 20px;
+    }
+    #content .article > p {
+        color: #887b59;
+        font-size: 1.2em;
+        padding: 6px 20px 0 204px;
+        display: block;
+        font-family: Tahoma, sans-serif;
+        text-align: justify;
+    }
+    #content .article p a {
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+    #content .article table {
+        margin-left: 27px;
+    }
+    #content .article table tr td {
+        width: 220px;
+    }
+        #content .article table tr td img {
+            padding: 5px 0 0 0;
+        }
+        #content .article table tr td p {
+            text-align: justify;
+            padding: 8px 10px 0 119px;
+            font-size: 1em;
+            color: #887b59;
+            font-family: Tahoma, sans-serif;
+        }
+    hr {
+        height: 1px;
+        background-color: #d8c9a7;
+        margin-left: 27px;
+        border-top: 1px solid #e6dcc7;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+/*    content       <<      */
+
+/*    leftSideBar       >>      */
+#leftSideBar {
+    width: 222px;
+    margin-left: 9px;
+    float: left;
+    height: 551px;
+    background-color: #fff;
+}
+    #leftSideBar .widget {
+        background-image: url("../Images/Sidebar_bac.jpg");
+        height: 100px;
+        background-repeat: repeat-x;
+        margin-top: 196px;
+        padding-top: 16px;
+    }
+        #leftSideBar .widget .info {
+            background-image: url("../Images/info_bacground.jpg");
+            background-repeat: repeat-y;
+            background-position: right;
+            background-color: #fdfbf2;
+            height: 240px;
+        }
+            #leftSideBar .widget .info .news:first-child {
+                border-bottom:1px dotted #e2e1de;
+                padding-top: 10px;
+            }
+
+            #leftSideBar .widget .info .news h3 {
+                padding: 15px 0 0 27px;
+                color: #6a5a2f;
+                font-family: Verdana;
+                font-size: 1em;
+            }
+            #leftSideBar .widget .info .news p {
+            text-align: justify;
+            padding: 12px 35px 8px 27px;
+            color: #81734d;
+            font-size: 1em;
+            font-family: Verdana;
+            }
+            #leftSideBar .widget .info .news a {
+                color: #6a5a2f;
+                margin-left: 165px;
+                font-weight: bold;
+            }
+        #leftSideBar img {
+            margin-top: 130px;
+        }
+                #leftSideBar .widget .info .news p:first-child {
+                
+                }
+/*    leftSideBar       <<      */
+
+/*    footer            >>      */
+#footer {
+    width: 717px;
+    height: 40px;
+    background-color: #dfd4b5;
+    position :absolute;
+    top: 693px;
+    left: 9px;
+}
+    #footer p {
+    text-align: center;
+    line-height: 40px;
+    color: #69562d;
+    font-size: 1.2em;
+    font-weight: bold;
+    }
+/*    footer            <<      */
